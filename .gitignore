@@ -1,0 +1,7 @@
+.DS_Store
+.env
+*.aes
+*.decrypted
+*.log
+build
+node_modules
