@@ -2,6 +2,8 @@
 
 👩‍💻👨‍💻 -- Send engineers reminders via slack to keep your repos up to date.
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thenationofalex_repo-love&metric=alert_status)](https://sonarcloud.io/dashboard?id=thenationofalex_repo-love)
+
 #### 🔨 Built with
 
 - [TypeScript](https://www.typescriptlang.org/)
