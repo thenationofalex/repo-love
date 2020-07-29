@@ -21,3 +21,4 @@ COPY tsconfig.json /root/app
 
 #Folders
 COPY src /root/app/src
+COPY __mocks__  /root/app/__mocks__
