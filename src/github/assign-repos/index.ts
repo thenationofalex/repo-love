@@ -7,7 +7,7 @@ export interface IAssignedReposResponse {
   repos: Array<string>
 }
 
-export const AssignRepos = (repos: string[], engineers: Array<IGetEngineersResponse>): Array<IAssignedReposResponse> =>
+export const AssignRepos = async (repos: string[], engineers: Array<IGetEngineersResponse>): Promise<Array<IAssignedReposResponse>> =>
   _.chain(repos)
     .shuffle()
     .chunk(_.ceil((_.size(repos) / _.size(engineers))))

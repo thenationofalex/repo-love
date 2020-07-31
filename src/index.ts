@@ -4,9 +4,9 @@ import { GetEngineers } from './slack/get-engineers'
 import { SendMessages } from './slack/send-messages'
 
 export const RepoLove = async (): Promise<void> => {
-  const getRepos = await GetRepos()
-  const getEngineers = await GetEngineers()
-  const assignRepos = AssignRepos(getRepos, getEngineers)
+  const repos = await GetRepos()
+  const engineers = await GetEngineers()
+  const assignRepos =  await AssignRepos(repos, engineers)
   SendMessages(assignRepos)
 }
 
