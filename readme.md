@@ -3,6 +3,7 @@
 👩‍💻👨‍💻 -- Send engineers reminders via slack to keep your repos up to date.
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thenationofalex_repo-love&metric=alert_status)](https://sonarcloud.io/dashboard?id=thenationofalex_repo-love)
+[![Build Status](https://travis-ci.org/thenationofalex/repo-love.svg?branch=master)](https://travis-ci.org/thenationofalex/repo-love)
 
 #### 🔨 Built with
 

@@ -7,8 +7,8 @@ const engineers = [
 ]
 
 describe('AssignRepos', () => {
-  it('Assigns repos to engineers', () => {
-    const assign = AssignRepos(repos, engineers)
+  it('Assigns repos to engineers', async () => {
+    const assign = await AssignRepos(repos, engineers)
     expect(assign).toEqual(
       expect.arrayContaining([
         expect.objectContaining(
