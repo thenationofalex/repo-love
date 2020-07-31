@@ -4,6 +4,7 @@
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=thenationofalex_repo-love&metric=alert_status)](https://sonarcloud.io/dashboard?id=thenationofalex_repo-love)
 [![Build Status](https://travis-ci.org/thenationofalex/repo-love.svg?branch=master)](https://travis-ci.org/thenationofalex/repo-love)
+[![Coverage Status](https://coveralls.io/repos/github/thenationofalex/repo-love/badge.svg?branch=master)](https://coveralls.io/github/thenationofalex/repo-love?branch=master)
 
 #### 🔨 Built with
 
