@@ -2,12 +2,6 @@ FROM node:12
 
 WORKDIR /root/app
 
-ENV TZ=Australia/Melbourne
-
-# Run
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-RUN mkdir public
-
 COPY package.json /root/app
 COPY package-lock.json /root/app
 
