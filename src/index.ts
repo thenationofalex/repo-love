@@ -7,7 +7,7 @@ export const RepoLove = async (): Promise<void> => {
   const repos = await GetRepos()
   const engineers = await GetEngineers()
   const assignRepos =  await AssignRepos(repos, engineers)
-  SendMessages(assignRepos)
+  await SendMessages(assignRepos)
 }
 
 RepoLove()
